@@ -1,4 +1,4 @@
-# Project Travix
+# Project Torto Boilerplate
 
 ## Technologies to front
 
@@ -19,44 +19,42 @@ I didn't use react-lazyload because this project is very small, but if it is nec
 
   To run this project you need to install all packages in npm, to do it run:
 
-`$ npm install`
-
-`$ npm install`
+`$ yarn`
 
 ### Run project - dev-mode
 
-`$ npm run start`
+`$ yarn start`
 
 ### Build - Production
 
 After running this command, a folder "dist" will be created with the files to send to production.
 
-`$ npm run build`
+`$ yarn build`
 
 ### Run lint
 
-`$ npm run lint`
+`$ yarn lint`
 
 Lint fix
 
-`$ npm run lint:fix`
+`$ yarn lint:fix`
 
 ### Run tests
 
 Test with coverage
 
-`$ npm run test`
+`$ yarn test`
 
 Test with watch (dev-mode)
 
-`$ npm run test:watch`
+`$ yarn test:watch`
 
 ### Storybook
 
 Run Storybook
 
-`$ npm run storybook`
+`$ yarn storybook`
 
 Build storybook
 
-`$ npm run build-storybook`
+`$ yarn build-storybook`
