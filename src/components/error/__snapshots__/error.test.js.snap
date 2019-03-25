@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorComponent Snapshot 1`] = `
+<ModalComponent
+  onClose={[Function]}
+  open={true}
+>
+  <styled.div>
+    <styled.h1>
+      Error!
+    </styled.h1>
+    <styled.p>
+      test
+    </styled.p>
+  </styled.div>
+</ModalComponent>
+`;
+
+exports[`ErrorComponent Snapshot without open 1`] = `
+<ModalComponent
+  onClose={[Function]}
+  open={false}
+>
+  <styled.div>
+    <styled.h1>
+      Error!
+    </styled.h1>
+    <styled.p>
+      test
+    </styled.p>
+  </styled.div>
+</ModalComponent>
+`;

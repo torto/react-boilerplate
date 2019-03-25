@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Travix
 
-## Available Scripts
+## Technologies to front
 
-In the project directory, you can run:
+- React: Lib single application
+- Redux: Work with stories in the React
+- Axios: Execute all requests
+- Styled Components: CssInJs
+- Webpack 4: A bundler for javascript
+- Babel: Javascript compiler
+- Jest: Test all JavaScript code
+- React-thunk: Async middleware for Redux.
+- Enzyme: Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components' output.
+- Storybook: UI component dev & test: React, React Native, Vue, Angular, Ember & more!
 
-### `npm start`
+I didn't use react-lazyload because this project is very small, but if it is necessary to the project is very easy to implement after.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Run Front-end Project
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+  To run this project you need to install all packages in npm, to do it run:
 
-### `npm test`
+`$ npm install`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`$ npm install`
 
-### `npm run build`
+### Run project - dev-mode
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`$ npm run start`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Build - Production
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After running this command, a folder "dist" will be created with the files to send to production.
 
-### `npm run eject`
+`$ npm run build`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Run lint
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`$ npm run lint`
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Lint fix
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`$ npm run lint:fix`
 
-## Learn More
+### Run tests
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Test with coverage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`$ npm run test`
 
-### Code Splitting
+Test with watch (dev-mode)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`$ npm run test:watch`
 
-### Analyzing the Bundle Size
+### Storybook
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Run Storybook
 
-### Making a Progressive Web App
+`$ npm run storybook`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Build storybook
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`$ npm run build-storybook`

@@ -3,23 +3,67 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "connected-react-router": "^6.3.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3",
+    "styled-reset": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test:watch": "react-scripts test",
+    "test": "react-scripts test --coverage --no-watch",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.stories.js",
+      "!<rootDir>/node_modules/",
+      "!src/index.js",
+      "!src/store.js",
+      "!src/containers/app/*.js",
+      "!src/modules/index.js",
+      "!src/stories/index.js"
+    ]
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@sambego/storybook-state": "^1.3.4",
+    "@storybook/addon-actions": "^5.0.3",
+    "@storybook/addon-knobs": "^5.0.3",
+    "@storybook/addon-links": "^5.0.3",
+    "@storybook/react": "^5.0.3",
+    "axios-mock-adapter": "^1.16.0",
+    "babel-loader": "^8.0.5",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-sort-class-members": "^1.4.0",
+    "jest-styled-components": "^6.3.1",
+    "jsdom": "^14.0.0",
+    "redux-devtools": "^3.5.0"
+  }
 }

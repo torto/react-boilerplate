@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalComponent Snapshot 1`] = `
+<Portal
+  containerInfo={<body />}
+>
+  <styled.div
+    onKeyDown={[Function]}
+  />
+  <ModalContainer
+    onKeyDown={[Function]}
+  />
+</Portal>
+`;
+
+exports[`ModalComponent Snapshot without nothing 1`] = `""`;

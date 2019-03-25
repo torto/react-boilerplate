@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingComponent Snapshot 1`] = `
+<Portal
+  containerInfo={<body />}
+>
+  <styled.div>
+    <styled.div>
+      <Square />
+      <Square />
+      <Square />
+    </styled.div>
+  </styled.div>
+</Portal>
+`;
+
+exports[`LoadingComponent Snapshot without nothing 1`] = `""`;
